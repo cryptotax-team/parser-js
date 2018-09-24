@@ -1,0 +1,27 @@
+{
+  "name": "cryptotax-parser-bittrex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "cryptotax",
+    "bittrex",
+    "parser",
+    "javascript"
+  ],
+  "author": "Tobias Schwarz",
+  "license": "MIT",
+  "dependencies": {
+    "fast-csv": "^2.4.1",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "sinon": "^6.3.4"
+  }
+}
